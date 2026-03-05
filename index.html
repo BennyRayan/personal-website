@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayan Zahedi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+            color: #222;
+            background: #fafafa;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        header {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .photo {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        header p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        header a {
+            color: #1a6fb5;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.3rem;
+            margin-bottom: 0.8rem;
+        }
+
+        p, li {
+            font-size: 0.95rem;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+        }
+
+        li {
+            margin-bottom: 0.4rem;
+        }
+
+        .project-title {
+            font-weight: 600;
+        }
+
+        .ref-name {
+            font-weight: 600;
+        }
+
+        .ref-role {
+            color: #555;
+        }
+
+        .resume-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #1a6fb5;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .resume-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 500px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="photo" src="photo.jpg" alt="Rayan Zahedi">
+            <div>
+                <h1>Rayan Zahedi</h1>
+                <p>B.Sc. Student in Electrical Engineering &amp; Information Technology</p>
+                <p>RWTH Aachen University</p>
+                <p><a href="mailto:rayan.z@hotmail.de">rayan.z@hotmail.de</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Research Interests</h2>
+            <p>
+                I am interested in <strong>hardware and computer architecture</strong>,
+                <strong>embedded and real-time systems</strong>, and <strong>edge AI</strong>.
+                My experience at Fraunhofer FHR gave me hands-on exposure to real-time embedded
+                development, and I am eager to deepen my research in these areas at the graduate level.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <span class="project-title">RWTH Aachen University</span> (Sep 2023 &ndash; present)<br>
+                    B.Sc. in Electrical Engineering and Information Technology (GPA: 2.0/1.0, German scale)<br>
+                    Member of the Dean's List (top 5%)
+                </li>
+                <li>
+                    <span class="project-title">Modellschule Obersberg, Bad Hersfeld</span> (Aug 2020 &ndash; Jun 2023)<br>
+                    High School Diploma (Grade: 2.1/1.0, German scale)
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <span class="project-title">Research Assistant in Embedded Systems, Fraunhofer FHR</span> (Dec 2024 &ndash; Dec 2025)<br>
+                    Development and optimization of real-time systems on STM32 dual-core microcontrollers in C++.
+                    Designed and implemented an OTA bootloader application using Ethernet for firmware updates on a dual-core platform.
+                </li>
+                <li>
+                    <span class="project-title">Tutor for Mathematical Methods in EE, RWTH Aachen</span> (Nov 2024 &ndash; Jan 2025)<br>
+                    Preparation and presentation of four small group tutorials per week.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <span class="project-title">Pipe-Network Reconstruction Project</span> (RWTH Aachen &amp; Viega, extracurricular)<br>
+                    Exploring methods to reconstruct pipe networks in schools and hospitals using robotics,
+                    ground-penetrating radar (GPR), and X-ray technology.
+                </li>
+                <li>
+                    <span class="project-title">Group Project in Information Technology</span> (RWTH Aachen)<br>
+                    Simulation and testing of sensors in a MATLAB environment; programming of a self-constructed robot.
+                </li>
+                <li>
+                    <span class="project-title">BetterMind</span> (Enactus Aachen e.V., Jan 2024 &ndash; present)<br>
+                    Backend development and product planning for the BetterMind project within a student initiative.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> German (native), English (fluent), Persian (fluent)</li>
+                <li><strong>Technical:</strong> C/C++, MATLAB/Simulink, Python, C#, Linux &amp; Bash, MS Office</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>References</h2>
+            <ul>
+                <li>
+                    <span class="ref-name">Stefan Wickmann</span><br>
+                    <span class="ref-role">Fraunhofer FHR, Wachtberg</span>
+                </li>
+                <li>
+                    <span class="ref-name">Prof. Dr. ir. Dr. h.c. R.W. De Doncker</span><br>
+                    <span class="ref-role">RWTH Aachen University</span>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
